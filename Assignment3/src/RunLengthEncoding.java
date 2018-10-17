@@ -16,13 +16,18 @@ public class RunLengthEncoding {
 
     public String decode(String source) {
         String decodedText = "";
-        for (int counter = 0; counter < source.length(); counter += 2) {
+        for (int counter = 0; counter < source.length(); counter++) {
             char element = source.charAt(counter);
-            int runLength = Integer.parseInt(source.substring(counter + 1, counter + 2));
+            int start = counter + 1;
+            while (counter + 1 < source.length() && Character.isDigit(source.charAt(counter + 1))) {
+                counter++;
+            }
+            int runLength = Integer.parseInt(source.substring(start, counter + 1));
             for (int length = 0; length < runLength; length++) {
                 decodedText += element;
             }
         }
         return decodedText;
     }
+
 }

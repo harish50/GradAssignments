@@ -38,5 +38,11 @@ public class RunLengthEncodingTest {
         Assert.assertEquals("rrrjjabbbbcc", runLengthEncoding.decode("r3j2a1b4c2"));
     }
 
+    @Test
+    public void decodeMultiDigitRunLengthString() {
+        RunLengthEncoding runLengthEncoding = new RunLengthEncoding();
+        Assert.assertEquals("eeeeeeeeeeffff", runLengthEncoding.decode("e10f4"));
+        Assert.assertEquals("gggggggggggggggg", runLengthEncoding.decode("g16"));
+    }
 
 }
