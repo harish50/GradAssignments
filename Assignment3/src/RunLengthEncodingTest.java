@@ -29,6 +29,14 @@ public class RunLengthEncodingTest {
     @Test
     public void decodeSignleRunLengthString() {
         RunLengthEncoding runLengthEncoding = new RunLengthEncoding();
-        Assert.assertEquals("abcd",runLengthEncoding.decode("a1b1c1d1"));
+        Assert.assertEquals("abcd", runLengthEncoding.decode("a1b1c1d1"));
     }
+
+    @Test
+    public void decodeSingleDigitRunLengthString() {
+        RunLengthEncoding runLengthEncoding = new RunLengthEncoding();
+        Assert.assertEquals("rrrjjabbbbcc", runLengthEncoding.decode("r3j2a1b4c2"));
+    }
+
+
 }
