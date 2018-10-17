@@ -5,7 +5,6 @@ public class DailerTest {
     @Test
     public void test1(){
         DailerApp dailerApp = new DailerApp();
-
         Assert.assertEquals("242",dailerApp.convertToNumber("aga"));
     }
 
