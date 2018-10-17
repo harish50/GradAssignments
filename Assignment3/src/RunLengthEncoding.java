@@ -13,4 +13,9 @@ public class RunLengthEncoding {
         }
         return encodedText;
     }
+
+    public String decode(String source) {
+        String decodedText = "";
+        return decodedText;
+    }
 }

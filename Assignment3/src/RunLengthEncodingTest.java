@@ -15,9 +15,14 @@ public class RunLengthEncodingTest {
     }
 
     @Test
-    public void encodeMultiRunLengthString(){
+    public void encodeMultiRunLengthString() {
         RunLengthEncoding runLengthEncoding = new RunLengthEncoding();
-        Assert.assertEquals("k2a3s1d2a1",runLengthEncoding.encode("KKaaasddA"));
+        Assert.assertEquals("k2a3s1d2a1", runLengthEncoding.encode("KKaaasddA"));
     }
 
+    @Test
+    public void decodeEmptyString() {
+        RunLengthEncoding runLengthEncoding = new RunLengthEncoding();
+        Assert.assertEquals("", runLengthEncoding.decode(""));
+    }
 }
