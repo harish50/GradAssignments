@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f212cede-dccc-4ddc-b90c-4f22970a546e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/src/RunLengthEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/src/RunLengthEncoding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/src/RunLengthEncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/src/RunLengthEncodingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment3/RunLengthEncoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment3/RunLengthEncoding.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Assignment3/RunLengthEncodingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment3/RunLengthEncodingTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,13 +56,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2745" />
+          <entry key="java" value="2975" />
           <entry key="txt" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2745" />
+          <entry key="JAVA" value="2975" />
           <entry key="PLAIN_TEXT" value="107" />
         </counts>
       </usages-collector>
@@ -75,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment3/src/RunLengthEncodingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="465">
+              <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment3/src/RunLengthEncoding.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            <state relative-caret-position="285">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -342,8 +340,8 @@
         <option value="$PROJECT_DIR$/DailerApp/src/Contact.java" />
         <option value="$PROJECT_DIR$/DailerApp/src/DailerApp.java" />
         <option value="$PROJECT_DIR$/DailerApp/src/DailerTest.java" />
-        <option value="$PROJECT_DIR$/Assignment3/src/RunLengthEncoding.java" />
         <option value="$PROJECT_DIR$/Assignment3/src/RunLengthEncodingTest.java" />
+        <option value="$PROJECT_DIR$/Assignment3/src/RunLengthEncoding.java" />
       </list>
     </option>
   </component>
@@ -420,7 +418,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539795928645" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539796436161" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -440,7 +438,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RunLengthEncodingTest.decodeEmptyString">
+  <component name="RunManager" selected="JUnit.RunLengthEncodingTest.decodeSignleDigitRunLengthString">
     <configuration name="RunLengthEncodingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
@@ -459,11 +457,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunLengthEncodingTest.encodeEmprtyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RunLengthEncodingTest.decodeSignleDigitRunLengthString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RunLengthEncodingTest" />
-      <option name="METHOD_NAME" value="encodeEmprtyString" />
+      <option name="METHOD_NAME" value="decodeSignleDigitRunLengthString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -491,18 +489,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.RunLengthEncodingTest" />
-      <item itemvalue="JUnit.RunLengthEncodingTest.encodeEmprtyString" />
       <item itemvalue="JUnit.RunLengthEncodingTest.encodeStringWithSignleLengthChracter" />
       <item itemvalue="JUnit.RunLengthEncodingTest.encodeMultiRunLengthString" />
       <item itemvalue="JUnit.RunLengthEncodingTest.decodeEmptyString" />
+      <item itemvalue="JUnit.RunLengthEncodingTest.decodeSignleDigitRunLengthString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunLengthEncodingTest.decodeSignleDigitRunLengthString" />
         <item itemvalue="JUnit.RunLengthEncodingTest.decodeEmptyString" />
         <item itemvalue="JUnit.RunLengthEncodingTest.encodeMultiRunLengthString" />
         <item itemvalue="JUnit.RunLengthEncodingTest" />
         <item itemvalue="JUnit.RunLengthEncodingTest.encodeStringWithSignleLengthChracter" />
-        <item itemvalue="JUnit.RunLengthEncodingTest.encodeEmprtyString" />
       </list>
     </recent_temporary>
   </component>
@@ -529,7 +527,7 @@
       <workItem from="1538581966947" duration="10000" />
       <workItem from="1539704115897" duration="1023000" />
       <workItem from="1539764673893" duration="637000" />
-      <workItem from="1539781545954" duration="3649000" />
+      <workItem from="1539781545954" duration="4600000" />
     </task>
     <task id="LOCAL-00001" summary="First Test">
       <created>1537966695963</created>
@@ -563,12 +561,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunLengthEncodingTest_encodeStringWithSignleLengthChracter - 2018.10.17 at 21h 59m 13s.xml">
-      <configuration name="RunLengthEncodingTest.encodeStringWithSignleLengthChracter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunLengthEncodingTest_encodeStringWithSignleLengthChracter - 2018.10.17 at 22h 00m 44s.xml">
-      <configuration name="RunLengthEncodingTest.encodeStringWithSignleLengthChracter" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunLengthEncodingTest_encodeStringWithSignleLengthChracter - 2018.10.17 at 22h 01m 07s.xml">
       <configuration name="RunLengthEncodingTest.encodeStringWithSignleLengthChracter" configurationId="JUnit" />
     </history-entry>
@@ -593,9 +585,15 @@
     <history-entry file="RunLengthEncodingTest_encodeMultiRunLengthString - 2018.10.17 at 22h 32m 56s.xml">
       <configuration name="RunLengthEncodingTest.encodeMultiRunLengthString" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunLengthEncodingTest_decodeEmptyString - 2018.10.17 at 22h 38m 02s.xml">
+      <configuration name="RunLengthEncodingTest.decodeEmptyString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunLengthEncodingTest_decodeSignleDigitRunLengthString - 2018.10.17 at 22h 41m 45s.xml">
+      <configuration name="RunLengthEncodingTest.decodeSignleDigitRunLengthString" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17749000" />
+    <option name="totallyTimeSpent" value="18700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,6 +606,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -618,14 +617,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32866243" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32866243" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32885906" />
@@ -744,15 +743,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment3/src/RunLengthEncoding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="285">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment3/src/RunLengthEncodingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="465">
+          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -16,6 +16,9 @@ public class RunLengthEncoding {
 
     public String decode(String source) {
         String decodedText = "";
+        for(int counter=0;counter<source.length();counter+=2){
+            decodedText+=source.charAt(counter);
+        }
         return decodedText;
     }
 }
