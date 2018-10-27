@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f212cede-dccc-4ddc-b90c-4f22970a546e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment3/src/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/src/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/src/RunLengthEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/src/RunLengthEncoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/src/RunLengthEncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/src/RunLengthEncodingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DailerApp/src/DailerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailerApp/src/DailerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment3/RunLengthEncoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment3/RunLengthEncoding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment3/RunLengthEncodingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment3/RunLengthEncodingTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -26,23 +30,24 @@
     <session id="258317748">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="7" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bat" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="gradlew" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="19" />
-          <entry key="md" value="2" />
+          <entry key="java" value="22" />
+          <entry key="md" value="3" />
           <entry key="properties" value="2" />
           <entry key="xml" value="3" />
         </counts>
@@ -50,34 +55,34 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="22" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3461" />
+          <entry key="java" value="3701" />
           <entry key="txt" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3461" />
+          <entry key="JAVA" value="3701" />
           <entry key="PLAIN_TEXT" value="107" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment3/src/RunLengthEncodingTest.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assignment3/src/SingletonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="15">
+              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,19 +91,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment3/src/RunLengthEncoding.java">
+        <entry file="file://$PROJECT_DIR$/Assignment3/src/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DailerApp/src/DailerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,6 +109,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -342,9 +343,11 @@
         <option value="$PROJECT_DIR$/DailerApp/src/LearnTest.java" />
         <option value="$PROJECT_DIR$/DailerApp/src/Contact.java" />
         <option value="$PROJECT_DIR$/DailerApp/src/DailerApp.java" />
+        <option value="$PROJECT_DIR$/DailerApp/src/DailerTest.java" />
         <option value="$PROJECT_DIR$/Assignment3/src/RunLengthEncoding.java" />
         <option value="$PROJECT_DIR$/Assignment3/src/RunLengthEncodingTest.java" />
-        <option value="$PROJECT_DIR$/DailerApp/src/DailerTest.java" />
+        <option value="$PROJECT_DIR$/Assignment3/src/SingletonTest.java" />
+        <option value="$PROJECT_DIR$/Assignment3/src/Singleton.java" />
       </list>
     </option>
   </component>
@@ -365,6 +368,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GradAssignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GradAssignments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="GradAssignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GradAssignments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Assignment3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GradAssignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GradAssignments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GradAssignments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -385,33 +414,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GradAssignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GradAssignments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="GradAssignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GradAssignments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Assignment3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GradAssignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GradAssignments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="DailerApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GradAssignments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GradAssignments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="DailerApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -421,7 +423,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539800220712" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540640003036" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -441,21 +444,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RunLengthEncodingTest">
+  <component name="RunManager" selected="JUnit.SingletonTest.singletonTestWithTwoInstances">
     <configuration name="RunLengthEncodingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RunLengthEncodingTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunLengthEncodingTest.decodeEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunLengthEncodingTest" />
-      <option name="METHOD_NAME" value="decodeEmptyString" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -490,20 +483,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonTest.singletonTestWithTwoInstances" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SingletonTest" />
+      <option name="METHOD_NAME" value="singletonTestWithTwoInstances" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.RunLengthEncodingTest.decodeEmptyString" />
       <item itemvalue="JUnit.RunLengthEncodingTest.decodeSignleDigitRunLengthString" />
       <item itemvalue="JUnit.RunLengthEncodingTest.decodeSingleDigitRunLengthString" />
       <item itemvalue="JUnit.RunLengthEncodingTest.decodeMultiDigitRunLengthString" />
       <item itemvalue="JUnit.RunLengthEncodingTest" />
+      <item itemvalue="JUnit.SingletonTest.singletonTestWithTwoInstances" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingletonTest.singletonTestWithTwoInstances" />
         <item itemvalue="JUnit.RunLengthEncodingTest" />
         <item itemvalue="JUnit.RunLengthEncodingTest.decodeMultiDigitRunLengthString" />
         <item itemvalue="JUnit.RunLengthEncodingTest.decodeSingleDigitRunLengthString" />
         <item itemvalue="JUnit.RunLengthEncodingTest.decodeSignleDigitRunLengthString" />
-        <item itemvalue="JUnit.RunLengthEncodingTest.decodeEmptyString" />
       </list>
     </recent_temporary>
   </component>
@@ -530,7 +533,7 @@
       <workItem from="1538581966947" duration="10000" />
       <workItem from="1539704115897" duration="1023000" />
       <workItem from="1539764673893" duration="637000" />
-      <workItem from="1539781545954" duration="6113000" />
+      <workItem from="1539781545954" duration="6529000" />
     </task>
     <task id="LOCAL-00001" summary="First Test">
       <created>1537966695963</created>
@@ -564,21 +567,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunLengthEncodingTest_encodeMultiRunLengthString - 2018.10.17 at 22h 32m 56s.xml">
-      <configuration name="RunLengthEncodingTest.encodeMultiRunLengthString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunLengthEncodingTest_decodeEmptyString - 2018.10.17 at 22h 38m 02s.xml">
-      <configuration name="RunLengthEncodingTest.decodeEmptyString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunLengthEncodingTest_decodeSignleDigitRunLengthString - 2018.10.17 at 22h 41m 45s.xml">
-      <configuration name="RunLengthEncodingTest.decodeSignleDigitRunLengthString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunLengthEncodingTest_decodeSignleDigitRunLengthString - 2018.10.17 at 23h 21m 46s.xml">
-      <configuration name="RunLengthEncodingTest.decodeSignleDigitRunLengthString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunLengthEncodingTest_decodeSingleDigitRunLengthString - 2018.10.17 at 23h 34m 20s.xml">
-      <configuration name="RunLengthEncodingTest.decodeSingleDigitRunLengthString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunLengthEncodingTest_decodeMultiDigitRunLengthString - 2018.10.17 at 23h 38m 48s.xml">
       <configuration name="RunLengthEncodingTest.decodeMultiDigitRunLengthString" configurationId="JUnit" />
     </history-entry>
@@ -594,9 +582,24 @@
     <history-entry file="RunLengthEncodingTest_decodeMultiDigitRunLengthString - 2018.10.17 at 23h 46m 35s.xml">
       <configuration name="RunLengthEncodingTest.decodeMultiDigitRunLengthString" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunLengthEncodingTest - 2018.10.17 at 23h 47m 25s.xml">
+      <configuration name="RunLengthEncodingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunLengthEncodingTest - 2018.10.27 at 16h 30m 19s.xml">
+      <configuration name="RunLengthEncodingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingletonTest_singletonTestWithTwoInstances - 2018.10.27 at 16h 42m 54s.xml">
+      <configuration name="SingletonTest.singletonTestWithTwoInstances" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingletonTest_singletonTestWithTwoInstances - 2018.10.27 at 16h 43m 53s.xml">
+      <configuration name="SingletonTest.singletonTestWithTwoInstances" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingletonTest_singletonTestWithTwoInstances - 2018.10.27 at 16h 44m 13s.xml">
+      <configuration name="SingletonTest.singletonTestWithTwoInstances" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20213000" />
+    <option name="totallyTimeSpent" value="20629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,9 +612,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28540772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -620,17 +622,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32866243" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="11" visible="true" weight="0.32885906" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32885906" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32866243" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -715,14 +717,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/DailerApp/src/Testing.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DailerApp/src/DailerApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="668">
@@ -737,10 +731,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DailerApp/src/DailerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment3/src/RunLengthEncodingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -749,15 +750,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment3/src/RunLengthEncoding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DailerApp/src/DailerTest.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment3/src/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment3/src/SingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
