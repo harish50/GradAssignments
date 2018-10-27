@@ -1,5 +1,5 @@
 public enum Singleton {
-    ANYTHING;
+    INSTANCE;
     private int value;
 
     public void setValue(int number) {
