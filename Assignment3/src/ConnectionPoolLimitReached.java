@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public class ConnectionPoolLimitReached extends Exception {
+    public ConnectionPoolLimitReached() {
+        super("Connectionpool has no available connection");
+    }
 
-public class ConnectionPoolLimitReached {
 }
