@@ -49,11 +49,11 @@ public class ConnectionPool {
         return usedConnections.remove(connection);
     }
 
-    public void clearConnections(){
-        for(Connection connection:usedConnections){
+    public void clearConnections() {
+        for (Connection connection : usedConnections) {
             availableConnections.add(connection);
         }
-        for (Connection connection:availableConnections){
+        for (Connection connection : availableConnections) {
             usedConnections.remove(connection);
         }
     }
