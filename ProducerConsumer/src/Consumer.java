@@ -5,12 +5,12 @@ import static java.lang.Thread.sleep;
 
 public class Consumer implements Runnable {
     private SharedDbConnections sharedDbConnections;
-    private ThreadList threadList;
+    private ConsumerMonitor consumerMonitor;
 
-    public Consumer(SharedDbConnections sharedDbConnections, ThreadList threadList) {
+    public Consumer(SharedDbConnections sharedDbConnections, ConsumerMonitor consumerMonitor) {
 
         this.sharedDbConnections = sharedDbConnections;
-        this.threadList = threadList;
+        this.consumerMonitor= consumerMonitor;
     }
 
     public void run() {
@@ -18,12 +18,10 @@ public class Consumer implements Runnable {
             int count = 0;
             Connection connection = null;
             try {
-                if (threadList.isThreadConsumedTwoTimes()) {
-                    threadList.reset();
+                if (consumerMonitor.isThreadSelfish(Thread.currentThread().getId())) {
                     sleep(5000);
                 }
                 connection = sharedDbConnections.consume();
-                threadList.add(Thread.currentThread().getId());
                 count += 1;
             } catch (InterruptedException e) {
                 e.printStackTrace();
